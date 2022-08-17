@@ -1,0 +1,68 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container{
+    max-width: 80%;
+   
+    padding: 34px;
+    margin: auto;
+}
+body img{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    opacity: 75%;
+}
+.container h1{
+    text-align: center;
+}
+.container p{
+    text-align: center;
+    font-size: 14px;
+}
+.submitMsg{
+    color: #21c758;
+    font-size: 14px;
+}
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    
+}
+form input,textarea{
+    font-size: 18px;
+    width: 80%;
+    margin: 12px;
+    padding: 8px 12px;
+    border-radius: 14px;
+    border: 1px solid black;
+    text-align: start;
+    outline: none;
+}
+.btnSubmission{
+    padding: 1em 2em;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2.0px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 35px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+.btnSubmission:hover{
+    background-color: #21c758;
+   
+    color: #fff;
+   
+}
+
